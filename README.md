@@ -14,9 +14,11 @@ Shower timer is a web application which allows users to time their showers and s
 
 * Gallons used is based on a static formula; only variable is time
 
+* Gallons used may not be a negative number
+
 * Login page is tested thoroughly before release, including testing using invalid inputs
 
-* 
+* Timer must be tested thoroughly, including start and stop buttons
 
 # Architecture
 
