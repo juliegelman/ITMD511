@@ -20,8 +20,10 @@ function timer(){
        
         minutes++;
 
-       
-
     }
+    showSecs=secs;
+    showMins=mins;
+        document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+
 
 }
