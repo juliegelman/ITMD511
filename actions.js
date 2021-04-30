@@ -23,7 +23,7 @@ function timer(){
     }
     showSecs=secs;
     showMins=mins;
-        document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+    document.getElementById("display").innerHTML = displayMinutes + ":" + displaySeconds;
 
 
 }
