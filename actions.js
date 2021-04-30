@@ -10,3 +10,18 @@ let showTimer = null;
 
 //variable to keep track of timer status (going, stopped)
 let timerStatus = "stop"
+
+//timer function to allow users to start and stop timer
+function timer(){
+    secs++;
+
+    //increment minutes at 60 seconds
+    if(seconds / 60 === 1){
+       
+        minutes++;
+
+       
+
+    }
+
+}
