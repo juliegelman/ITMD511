@@ -16,14 +16,14 @@ function timer(){
     secs++;
 
     //increment minutes at 60 seconds
-    if(seconds / 60 === 1){
+    if(secs / 60 === 1){
        
-        minutes++;
+        mins++;
 
     }
-    showSecs=secs;
-    showMins=mins;
-    document.getElementById("display").innerHTML = displayMinutes + ":" + displaySeconds;
+    showSecs = secs;
+    showMins = mins;
+    document.getElementById("display").innerHTML = showMins + ":" + showSecs;
 
 
 }
