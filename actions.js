@@ -7,3 +7,6 @@ let mins = 0;
 let showSecs = 0;
 let showMins = 0;
 let showTimer = null;
+
+//variable to keep track of timer status (going, stopped)
+let timerStatus = "stop"
