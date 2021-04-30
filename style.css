@@ -1,9 +1,11 @@
 #display{
-    background-color: red;
+    text-align: center;
+   
+    font-size: 40px;
 }
 
 .buttons{
     text-align: center;
-    background-color: black;
+
     size: 20px;
 }
